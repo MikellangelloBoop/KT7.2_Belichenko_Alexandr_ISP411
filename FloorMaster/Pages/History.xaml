@@ -21,11 +21,11 @@
                   HorizontalAlignment="Center"
                   VerticalAlignment="Center">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Наименование" 
+                <DataGridTextColumn Header="Наименование" CanUserReorder="False"
                     Binding="{Binding Production.NameOfProduction}"></DataGridTextColumn>
-                <DataGridTextColumn Header="Количество продукции"
+                <DataGridTextColumn Header="Количество продукции" CanUserReorder="False"
                     Binding="{Binding CountOfProduction}"></DataGridTextColumn>
-                <DataGridTextColumn Header="Дата продажи"
+                <DataGridTextColumn Header="Дата продажи" CanUserReorder="False"
                     Binding="{Binding DateOfSale, StringFormat='{}{0:yyyy-MM-dd}'}"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>

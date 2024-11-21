@@ -53,6 +53,5 @@
         </ListView>
         <Button x:Name="AddButton" Grid.Row="1" Content="Добавить"
                 Click="AddButton_Click"></Button>
-
     </Grid>
 </Page>

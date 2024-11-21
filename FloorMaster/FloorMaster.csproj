@@ -147,10 +147,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Defects.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Pages\History.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -163,9 +159,6 @@
   <ItemGroup>
     <Compile Include="Pages\AddEdit.xaml.cs">
       <DependentUpon>AddEdit.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Defects.xaml.cs">
-      <DependentUpon>Defects.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\History.xaml.cs">
       <DependentUpon>History.xaml</DependentUpon>

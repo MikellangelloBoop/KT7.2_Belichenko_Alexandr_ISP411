@@ -64,13 +64,13 @@ namespace FloorMaster.Pages
             if (partnerData != null)
             {
                 var partner = (partnerData as dynamic).Partner;
-                Classes.Managers.MainFrame.Navigate(new Pages.AddEdit());
+                Classes.Managers.MainFrame.Navigate(new Pages.AddEdit(partner));
             }
         }
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            Classes.Managers.MainFrame.Navigate(new Pages.AddEdit());
+            Classes.Managers.MainFrame.Navigate(new Pages.AddEdit(null));
         }
 
         private void HistoryButton_Click(object sender, RoutedEventArgs e)
